@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+/* ===================================
+========= register page  */
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+    flex-direction: column;
+
+    background-image: linear-gradient(to right, #354a51, #445556, #54605d, #656b67, #757674);
+
+}
+
+.form-container form {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 40px;
+    /* font-family: "Playfair Display", serif; */
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+}
+
+.form-container form input {
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+}
+
+.form-container form button {
+    border: 1px solid black;
+    border-radius: 0;
+    background-color: #000;
+    color: white;
+    width: 250px;
+    border-radius: 35px;
+}
+
+.form-container form button:hover {
+    border: 1px solid black;
+    background: #000000;
+    background: -webkit-linear-gradient(to right,
+            #434343,
+            #000000);
+    background: linear-gradient(to right,
+            #434343,
+            #000000);
+}
+
+.btn {
+    margin-bottom: 10px;
+    display: block;
+}
